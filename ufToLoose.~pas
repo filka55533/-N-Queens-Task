@@ -1,0 +1,28 @@
+unit ufToLoose;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, Menus, ExtCtrls;
+
+type
+  TfrmToLoose = class(TForm)
+    pnlBack: TPanel;
+    lblCptAsk: TLabel;
+    btnYes: TButton;
+    btnNo: TButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmToLoose: TfrmToLoose;
+
+implementation
+
+{$R *.dfm}
+
+end.

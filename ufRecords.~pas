@@ -1,0 +1,25 @@
+unit ufRecords;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, ExtCtrls;
+
+type
+  TfrmRecords = class(TForm)
+    pnlBack: TPanel;
+    mmoRecords: TMemo;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var    frmRecords: TfrmRecords;
+
+implementation
+
+{$R *.dfm}
+
+end.
